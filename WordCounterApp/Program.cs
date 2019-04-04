@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WordCounterApp
+namespace WordCounter
 {
     class Program
     {
