@@ -1,0 +1,11 @@
+C:\Users\xavie\Desktop\Msc\WordCounter\WordCounterApp\bin\Debug\netcoreapp2.1\WordCounterApp.deps.json
+C:\Users\xavie\Desktop\Msc\WordCounter\WordCounterApp\bin\Debug\netcoreapp2.1\WordCounterApp.runtimeconfig.json
+C:\Users\xavie\Desktop\Msc\WordCounter\WordCounterApp\bin\Debug\netcoreapp2.1\WordCounterApp.runtimeconfig.dev.json
+C:\Users\xavie\Desktop\Msc\WordCounter\WordCounterApp\bin\Debug\netcoreapp2.1\WordCounterApp.dll
+C:\Users\xavie\Desktop\Msc\WordCounter\WordCounterApp\bin\Debug\netcoreapp2.1\WordCounterApp.pdb
+C:\Users\xavie\Desktop\Msc\WordCounter\WordCounterApp\obj\Debug\netcoreapp2.1\WordCounterApp.csprojAssemblyReference.cache
+C:\Users\xavie\Desktop\Msc\WordCounter\WordCounterApp\obj\Debug\netcoreapp2.1\WordCounterApp.csproj.CoreCompileInputs.cache
+C:\Users\xavie\Desktop\Msc\WordCounter\WordCounterApp\obj\Debug\netcoreapp2.1\WordCounterApp.AssemblyInfoInputs.cache
+C:\Users\xavie\Desktop\Msc\WordCounter\WordCounterApp\obj\Debug\netcoreapp2.1\WordCounterApp.AssemblyInfo.cs
+C:\Users\xavie\Desktop\Msc\WordCounter\WordCounterApp\obj\Debug\netcoreapp2.1\WordCounterApp.dll
+C:\Users\xavie\Desktop\Msc\WordCounter\WordCounterApp\obj\Debug\netcoreapp2.1\WordCounterApp.pdb
