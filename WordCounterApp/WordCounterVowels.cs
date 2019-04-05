@@ -8,10 +8,7 @@ namespace WordCounter
         {
             Text = text;
         }
-        public int CountWords()
-        {
-            return new WordSplitter(Text).SplittedWords.FindAll(word => StartsWithVowel(word)).Count;
-        }
+        public int CountWords => new WordSplitter(Text).SplittedWords.FindAll(word => StartsWithVowel(word)).Count;
 
         public Boolean StartsWithVowel(string word)
         {

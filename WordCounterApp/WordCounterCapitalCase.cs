@@ -9,10 +9,7 @@ namespace WordCounter
         {
             Text = text;
         }
-        public int CountWords()
-        {
-            return new WordSplitter(Text).SplittedWords.FindAll(word => StartsWithCapitalCase(word)).Count;
-        }
+        public int CountWords => new WordSplitter(Text).SplittedWords.FindAll(word => StartsWithCapitalCase(word)).Count;
 
         public Boolean StartsWithCapitalCase(string word)
         {

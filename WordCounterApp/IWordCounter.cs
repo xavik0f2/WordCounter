@@ -2,7 +2,6 @@ namespace WordCounter
 {
     public interface IWordCounter
     {
-        int CountWords();
-         
+        int CountWords { get; }
     }
 }

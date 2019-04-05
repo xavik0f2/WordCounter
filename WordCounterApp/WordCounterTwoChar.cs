@@ -7,10 +7,7 @@ namespace WordCounter
         {
             this.Text = text;
         }
-        public int CountWords()
-        {
-            return new WordSplitter(Text).SplittedWords
+        public int CountWords => new WordSplitter(Text).SplittedWords
             .FindAll(word => word.Length > 2).Count;
-        }
     }
 }
