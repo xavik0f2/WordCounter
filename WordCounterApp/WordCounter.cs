@@ -40,11 +40,7 @@ namespace WordCounter
 
         private List<string> RemoveDuplicatedWords()
         {
-            return SplittedWords().Distinct().ToList();
-        }
-         private List<string> SplittedWords()
-        {
-            return new List<string>(Text.Split(' '));
+            return new WordSplitter(Text).SplittedWords.Distinct().ToList();
         }
 
         public int CountWords()
