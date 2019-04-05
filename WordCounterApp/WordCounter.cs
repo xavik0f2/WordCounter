@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace WordCounter
 {
-    public class WordCounter
+    public class WordCounter : IWordCounter
     {
         private string Text { set; get; }
         private int TotalUniqueWords { get; set; }
@@ -45,6 +45,11 @@ namespace WordCounter
          private List<string> SplittedWords()
         {
             return new List<string>(Text.Split(' '));
+        }
+
+        public int CountWords()
+        {
+            return this.TotalWords;
         }
     }
 }
