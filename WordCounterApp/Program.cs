@@ -14,6 +14,7 @@ namespace WordCounter
             Console.WriteLine($"Words that begin with vowels: {new WordCounterVowels(text).CountWords}");
             Console.WriteLine($"Words with more than two characters: {new WordCounterTwoChar(text).CountWords}");
             Console.WriteLine($"Words that begin with capital: {new WordCounterCapitalCase(text).CountWords}");
+            Console.WriteLine($"Words call with Filter: {new WordCounterFilters(text).CountWords}");
 
         }
     }
